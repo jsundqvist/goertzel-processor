@@ -1,0 +1,20 @@
+{
+  "name": "goertzel-processor",
+  "version": "1.0.0",
+  "description": "DTMF AudioWorkletProcessor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsundqvist/goertzel-processor.git"
+  },
+  "keywords": [
+    "GoertzelFilter",
+    "DTMF",
+    "AudioWorkletProcessor"
+  ],
+  "author": "Johannes Sundqvist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsundqvist/goertzel-processor/issues"
+  },
+  "homepage": "https://github.com/jsundqvist/goertzel-processor#readme"
+}
