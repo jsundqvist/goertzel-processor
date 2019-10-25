@@ -24,6 +24,10 @@ class GoertzelProcessor extends AudioWorkletProcessor {
     for(let i=0; i<this.filters.length; i++) {
       data[this.frequencies[i]] = this.filters[i].magnitude;
     }
+    data.time = this.time;
+    this.time = new Date().getTime();
+    if(!data.time)
+        data.time = this.time;
     return data;
   }
 }
