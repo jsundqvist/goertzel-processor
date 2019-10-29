@@ -14,12 +14,12 @@ Usage:
     goertzelNode.connect(context.destination);
 
     navigator.getUserMedia({audio: true}, (stream) => {
-        let microphone = this.context.createMediaStreamSource(stream);
+        let microphone = context.createMediaStreamSource(stream);
         microphone.connect(goertzelNode);
     }, (e) => {
         console.error('Error getting microphone', e);
     });
     
-Then it's up to you to decide when you think a signal is detected :)
+It's up to you to decide when you think a signal is detected :)
 
 Inspired by https://github.com/sveljko/goertzel
